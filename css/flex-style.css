@@ -8,8 +8,8 @@
   --text: #333333;
   --white: #ffffff;
   --gray: #e0e0e0;
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Playfair Display', serif;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Playfair Display", serif;
 }
 
 * {
@@ -33,7 +33,10 @@ body {
 }
 
 /* Tipografia */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-secondary);
   font-weight: 700;
 }
@@ -68,7 +71,8 @@ h2.section-title span {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  background: url('https://images.unsplash.com/photo-1474722883778-792e7990302a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  background: url("https://images.unsplash.com/photo-1474722883778-792e7990302a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+    no-repeat center center/cover;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -151,7 +155,7 @@ h2.section-title span {
 }
 
 .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 15px;
   left: 50%;
@@ -216,7 +220,7 @@ section {
   font-size: 2.2rem;
   color: #5e1a1a;
   margin-bottom: 15px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .divider {
@@ -239,7 +243,7 @@ section {
 .about-image-simple img {
   width: 100%;
   border-radius: 8px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
@@ -247,8 +251,8 @@ section {
     flex-direction: column;
     gap: 30px;
   }
-  
-  .about-description, 
+
+  .about-description,
   .about-image-simple {
     width: 100%;
   }
@@ -384,7 +388,7 @@ section {
 }
 
 .timeline-item::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 60px;
   top: 0;
@@ -664,20 +668,20 @@ section {
   .contact-container {
     flex-direction: column;
   }
-  
+
   .about-image {
     margin-top: 30px;
   }
-  
+
   .timeline-item {
     flex-direction: column;
   }
-  
+
   .timeline-item::before {
     left: 15px;
     top: 60px;
   }
-  
+
   .timeline-date {
     margin-bottom: 20px;
     margin-right: 0;
@@ -689,34 +693,34 @@ section {
   .logo {
     font-size: 3rem;
   }
-  
+
   .tagline {
     font-size: 1.2rem;
   }
-  
+
   .nav-list {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .nav-item {
     margin: 5px;
   }
-  
+
   .nav-link {
     padding: 10px;
     font-size: 0.9rem;
   }
-  
+
   .cta-button {
     margin-left: 0;
     margin-top: 10px;
   }
-  
+
   h2.section-title {
     font-size: 2rem;
   }
-  
+
   section {
     padding: 60px 0;
   }
@@ -726,15 +730,15 @@ section {
   .logo {
     font-size: 2.5rem;
   }
-  
+
   .wines-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .footer-content {
     grid-template-columns: 1fr;
   }
-  
+
   .footer-bottom {
     flex-direction: column;
     text-align: center;
@@ -744,8 +748,14 @@ section {
 
 /* Animações */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 section {
@@ -753,13 +763,19 @@ section {
 }
 
 /* Efeitos de hover */
-button, .wine-button, .event-button, .submit-button {
+button,
+.wine-button,
+.event-button,
+.submit-button {
   position: relative;
   overflow: hidden;
 }
 
-button::after, .wine-button::after, .event-button::after, .submit-button::after {
-  content: '';
+button::after,
+.wine-button::after,
+.event-button::after,
+.submit-button::after {
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -772,7 +788,10 @@ button::after, .wine-button::after, .event-button::after, .submit-button::after 
   transform-origin: 50% 50%;
 }
 
-button:hover::after, .wine-button:hover::after, .event-button:hover::after, .submit-button:hover::after {
+button:hover::after,
+.wine-button:hover::after,
+.event-button:hover::after,
+.submit-button:hover::after {
   animation: ripple 1s ease-out;
 }
 
