@@ -21,7 +21,7 @@ Site institucional para a **Vinharia Agnelo**, uma vinícola fictícia que produ
 **Kaio Victtor Santos Andrade Galvão - rm566536**  
 
 ## 🔗 Links  
-- **Site no GitHub Pages**: [https://kaiogalvao.github.io/cp3-front/](https://kaiogalvao.github.io/cp3-front/) *(substitua pelo link real)*  
+- [https://kaiogalvao.github.io/cp3-front/](https://kaiogalvao.github.io/cp3-front/)
 
 ---  
 ✨ Desenvolvido com HTML5, CSS3 e responsividade mobile-first.  
