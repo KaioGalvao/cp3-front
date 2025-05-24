@@ -1,4 +1,4 @@
-# README - Vinharia Agnelo  
+# Vinharia Agnelo  
 
 ## 📌 Nome do Projeto  
 **Vinharia Agnelo**  
