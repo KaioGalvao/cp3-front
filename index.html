@@ -1,12 +1,310 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinharia Agnelo - Vinhos Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/flex-style.css">
-    <title>CP3 - Front</title>
 </head>
 <body>
+  <header class="main-header">
+    <div class="header-overlay"></div>
+    <div class="container">
+      <div class="header-content">
+        <h1 class="logo">Vinharia <span class="logo-highlight">Agnelo</span></h1>
+        <p class="tagline">Onde a tradição encontra o sabor extraordinário</p>
+      </div>
+    </div>
     
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#sobre" class="nav-link"><i class="fas fa-wine-glass-alt"></i> Sobre</a></li>
+          <li class="nav-item"><a href="#vinhos" class="nav-link"><i class="fas fa-wine-bottle"></i> Nossos Vinhos</a></li>
+          <li class="nav-item"><a href="#eventos" class="nav-link"><i class="fas fa-calendar-alt"></i> Eventos</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link"><i class="fas fa-envelope"></i> Contato</a></li>
+          <li class="nav-item"><a href="#" class="nav-link cta-button"><i class="fas fa-shopping-cart"></i> Comprar</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre" class="section-about">
+      <div class="container">
+        <div class="simple-about">
+          <div class="about-description">
+            <h2>Sobre a Vinharia Agnelo</h2>
+            <div class="divider"></div>
+            <p>Fundada em 1985 na Serra Gaúcha, a Vinharia Agnelo combina tradição familiar com técnicas modernas para produzir vinhos de excelência. Nossos vinhedos cultivados em solo vulcânico e clima privilegiado resultam em vinhos com personalidade única.</p>
+          </div>
+          <div class="about-image-simple">
+            <img src="https://images.unsplash.com/photo-1655779225590-34d4cb8b7f50?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                 alt="Vinhedos da Vinharia Agnelo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vinhos" class="section-wines">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Nossos <span>Vinhos</span></h2>
+          <div class="underline"></div>
+          <p class="section-subtitle">Descubra nossa seleção premium</p>
+        </div>
+        
+        <div class="wines-grid">
+          <article class="wine-card">
+            <div class="wine-badge">Mais Vendido</div>
+            <div class="wine-image">
+              <img src="https://images.unsplash.com/photo-1643081263338-dc25ecae1278?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Vinho Tinto Reserva Agnelo">
+            </div>
+            <div class="wine-content">
+              <h3 class="wine-title">Tinto Reserva Agnelo</h3>
+              <div class="wine-meta">
+                <span class="wine-year">Safra 2019</span>
+                <span class="wine-price">R$ 189,90</span>
+              </div>
+              <p class="wine-description">Encorpado, com notas de frutas vermelhas maduras, chocolate amargo e toques sutis de baunilha. Ideal para acompanhar carnes vermelhas e queijos curados.</p>
+              <div class="wine-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(46 avaliações)</span>
+              </div>
+              <button class="wine-button">Adicionar à cesta</button>
+            </div>
+          </article>
+
+          <article class="wine-card featured">
+            <div class="wine-badge">Destaque</div>
+            <div class="wine-image">
+              <img src="https://images.unsplash.com/photo-1611522619189-128058037fa2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Vinho Branco Clássico">
+            </div>
+            <div class="wine-content">
+              <h3 class="wine-title">Branco Clássico</h3>
+              <div class="wine-meta">
+                <span class="wine-year">Safra 2021</span>
+                <span class="wine-price">R$ 129,90</span>
+              </div>
+              <p class="wine-description">Fresco e vibrante, com aromas cítricos e florais. Na boca revela acidez equilibrada e final prolongado. Perfeito com frutos do mar e saladas gourmet.</p>
+              <div class="wine-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(32 avaliações)</span>
+              </div>
+              <button class="wine-button">Adicionar à cesta</button>
+            </div>
+          </article>
+
+          <article class="wine-card">
+            <div class="wine-badge">Novidade</div>
+            <div class="wine-image">
+              <img src="https://images.unsplash.com/photo-1565275895665-7f29bc900929?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Espumante Brut Agnelo">
+            </div>
+            <div class="wine-content">
+              <h3 class="wine-title">Espumante Brut</h3>
+              <div class="wine-meta">
+                <span class="wine-year">Safra 2020</span>
+                <span class="wine-price">R$ 159,90</span>
+              </div>
+              <p class="wine-description">Borbulhas finas e persistentes, aroma delicado de pão torrado e frutas brancas. Elegante e versátil, ideal para comemorações ou como aperitivo.</p>
+              <div class="wine-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(28 avaliações)</span>
+              </div>
+              <button class="wine-button">Adicionar à cesta</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="eventos" class="section-events">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Eventos <span>Exclusivos</span></h2>
+          <div class="underline"></div>
+          <p class="section-subtitle">Vivencie experiências enogastronômicas</p>
+        </div>
+        
+        <div class="events-timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">15 <span>Jul</span></div>
+            <div class="timeline-content">
+              <h3>Degustação Vertical</h3>
+              <p>Compare diferentes safras do nosso premiado Tinto Reserva Agnelo e descubra como o tempo transforma o caráter de um grande vinho.</p>
+              <div class="event-meta">
+                <span><i class="far fa-clock"></i> 19:30 - 22:00</span>
+                <span><i class="fas fa-map-marker-alt"></i> Adega Principal</span>
+              </div>
+              <button class="event-button">Reservar Vaga</button>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">28 <span>Ago</span></div>
+            <div class="timeline-content">
+              <h3>Jantar Harmonizado</h3>
+              <p>Menu de 5 pratos criado pelo chef Marcelo Bastos especialmente para harmonizar com nossa seleção de vinhos premium.</p>
+              <div class="event-meta">
+                <span><i class="far fa-clock"></i> 20:00 - 23:30</span>
+                <span><i class="fas fa-map-marker-alt"></i> Restaurante da Vinícola</span>
+              </div>
+              <button class="event-button">Reservar Vaga</button>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">10 <span>Set</span></div>
+            <div class="timeline-content">
+              <h3>Colheita Premium</h3>
+              <p>Participe conosco do momento mais especial do ano: a colheita das uvas para nossa edição limitada. Inclui almoço típico e degustação.</p>
+              <div class="event-meta">
+                <span><i class="far fa-clock"></i> 09:00 - 16:00</span>
+                <span><i class="fas fa-map-marker-alt"></i> Vinhedos Agnelo</span>
+              </div>
+              <button class="event-button">Reservar Vaga</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section-contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Fale <span>Conosco</span></h2>
+          <div class="underline"></div>
+          <p class="section-subtitle">Estamos à disposição para melhor atendê-lo</p>
+        </div>
+        
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Endereço</h4>
+                <p>Estrada dos Vinhos, km 15<br>Serra do Sul - RS</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h4>Telefone</h4>
+                <p>(99) 9999-9999<br>(99) 99999-9999 (WhatsApp)</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>contato@vinhariaagnelo.com.br<br>vendas@vinhariaagnelo.com.br</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Horário de Funcionamento</h4>
+                <p>Terça a Sábado: 10h - 18h<br>Domingo: 10h - 16h<br>Segunda: Fechado</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Seu Nome" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Seu Email" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="Seu Telefone">
+              </div>
+              <div class="form-group">
+                <select>
+                  <option value="">Assunto</option>
+                  <option value="vendas">Dúvidas sobre Vendas</option>
+                  <option value="eventos">Informações sobre Eventos</option>
+                  <option value="visitas">Agendamento de Visitas</option>
+                  <option value="outros">Outros Assuntos</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Vinharia <span>Agnelo</span></h3>
+          <p>Produzindo excelência desde 1985</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#vinhos">Nossos Vinhos</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-social">
+          <h4>Siga-nos</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          
+          <h4>Newsletter</h4>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Seu email">
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Vinharia Agnelo. Todos os direitos reservados.</p>
+        <div class="payment-methods">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-amex"></i>
+          <i class="fab fa-cc-paypal"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
